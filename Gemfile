@@ -45,6 +45,9 @@ gem 'figaro', '1.0.0'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+# use paperclip for image uploads
+gem 'paperclip', '4.2.1'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -58,12 +61,6 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-  
-  # Use stripe for handling payments
-  gem 'stripe', '1.16.1'
-  # Use fiagro to hide secret keys
-  gem 'figaro', '1.0.0'
-  # use paperclip for image uploads
-  gem 'paperclip', '4.2.1'
+
 end
 
