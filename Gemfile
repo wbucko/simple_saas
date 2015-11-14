@@ -47,6 +47,8 @@ gem 'figaro', '1.0.0'
 
 # use paperclip for image uploads
 gem 'paperclip', '4.2.1'
+# Use aws gem for hosting file on aws s3
+gem 'aws-sdk'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
